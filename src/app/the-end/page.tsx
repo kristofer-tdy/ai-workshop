@@ -87,7 +87,7 @@ export default function TheEndPage() {
     return (
       <div className="min-h-screen bg-bg-primary">
         <Header />
-        <main>{content}</main>
+        <main className="section-full">{content}</main>
       </div>
     );
   }
